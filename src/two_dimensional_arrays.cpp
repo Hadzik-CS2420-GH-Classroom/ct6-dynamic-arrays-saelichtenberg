@@ -59,7 +59,7 @@ void twoDimensionalArrays() {
     //   We need a second step to allocate each row.
 
     // TODO: Use a for loop to allocate each row: table[i] = new int[cols];
-    for (int i = 0; i < cols; ++i) {
+    for (int i = 0; i < rows; ++i) {
         table[i] = new int[cols];
     }
 
